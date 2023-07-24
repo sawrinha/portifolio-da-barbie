@@ -39,15 +39,25 @@ main .main-content .text {
  
 }
 main .main-content .text p {
-  width: 400px;
+  width: 500px;
   max-width: 100%;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 300;
 }
 
 main .techs .cards-container {
   display: flex;
   align-items: center;
+}
+main .techs .cards-containerm .card {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 8xp;
+}
+main .techs .cards-containerm .card img {
+  width: 80%;
 }
 /* BRBIE =======*/
 main figure {
@@ -57,9 +67,9 @@ main figure {
   justify-content: center;
 }
 main figure img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 150%;
 
 }
 button {
@@ -83,7 +93,6 @@ button {
 
  main .main-content .text p {
     width: 100%;
-    font-size: 0.9em;
  }
  main .techs .cards-container, .main-content .text p {
     margin-top: 32px;
@@ -96,13 +105,19 @@ button {
 
 
  @media (max-width: 800px) {
-  /* Aqui você pode inserir o estilo que deseja para dispositivos móveis */
+
   body {
     text-align: center;
   }
   .barb-profile {
     margin: 0 auto;
    }
+   .card {
+      margin: 0 auto;
+    }
+      h2 {
+        text-align: center;
+      }
 }
 
 
