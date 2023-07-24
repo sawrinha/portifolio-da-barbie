@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  max-width: 100%;
+}
+
+
+
+main {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 1200px;
+
+  max-width: 100%;
+
+  margin: auto;
+
+  display: flex;
+
+  flex-wrap: wrap;
+}
+/*MAIN CONTENT-------------*/
+main .main-content {
+  display: flex;
+  max-width: 100%;
+  gap:40px;
+
+}
+main .main-content h2 {
+  margin-bottom: 2%;
+  font-size: 2.2em;
+}
+main .main-content .text {
+  margin-bottom: 10%;
+ 
+  max-width: 100%;
+ 
+}
+main .main-content .text p {
+  width: 400px;
+  max-width: 100%;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+main .techs .cards-container {
+  display: flex;
+  align-items: center;
+}
+/* BRBIE =======*/
+main figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main figure img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+
+}
+ main {
+    align-items: center;
+ }
+ 
+ .main-content {
+   
+    align-items: center;
+    margin-bottom: 15%;
+ }
+
+ main .main-content .text p {
+    width: 100%;
+    font-size: 0.9em;
+ }
+ main .techs .cards-container, .main-content .text p {
+    margin-top: 32px;
+
+ }
+
+
+
+ 
+
+
+ @media (max-width: 800px) {
+  /* Aqui você pode inserir o estilo que deseja para dispositivos móveis */
+  body {
+    text-align: center;
+  }
+  .barb-profile {
+    margin: 0 auto;
+   }
+}
+
+
+
+
+/*é nesses ultimos codigos ai mas eu nao taav prestando atnçao entao nao sei oq ekkkkkkk*/
+
+
+
+/* vou olhar 
+
+- tá ai?
+
+
+*/
