@@ -45,7 +45,7 @@ main .main-content .text p {
   font-weight: 300;
 }
 
-main .techs .cards-container {
+main .techs .cards-containerm {
   display: flex;
   align-items: center;
 }
@@ -55,10 +55,14 @@ main .techs .cards-containerm .card {
   padding: 10px;
   background-color: #eee;
   border-radius: 8xp;
+
 }
 main .techs .cards-containerm .card img {
   width: 80%;
 }
+
+
+
 /* BRBIE =======*/
 main figure {
   display: flex;
@@ -105,31 +109,25 @@ button {
 
 
  @media (max-width: 800px) {
-
+  
   body {
     text-align: center;
   }
   .barb-profile {
     margin: 0 auto;
    }
-   .card {
+    .card {
       margin: 0 auto;
     }
       h2 {
         text-align: center;
       }
-}
+   
+   }
+  
 
 
 
 
-/*é nesses ultimos codigos ai mas eu nao taav prestando atnçao entao nao sei oq ekkkkkkk*/
 
 
-
-/* vou olhar 
-
-- tá ai?
-
-
-*/
