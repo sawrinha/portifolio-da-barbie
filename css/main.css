@@ -21,7 +21,7 @@ main {
 
   flex-wrap: wrap;
 }
-/*MAIN CONTENT-------------*/
+/*main*/
 main .main-content {
   display: flex;
   max-width: 100%;
@@ -63,7 +63,7 @@ main .techs .cards-containerm .card img {
 
 
 
-/* BRBIE =======*/
+/* BRBIE */
 main figure {
   display: flex;
   flex-direction: column;
